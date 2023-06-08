@@ -1,0 +1,26 @@
+body {
+    background-color: bisque;
+}
+
+h1 {
+    text-align: center;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    border: 30px solid magenta;
+    background: yellow;
+}
+
+.flex-container {
+    height: auto;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background: blue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
